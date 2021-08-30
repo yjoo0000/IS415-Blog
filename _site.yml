@@ -1,0 +1,11 @@
+name: "IS415 Blog"
+title: "IS415 Blog"
+description: |
+  IS415 Blog
+output_dir: "_site"
+navbar:
+  right:
+    - text: "Take-home Exercise"
+    - text: "About"
+      href: about.html
+output: distill::distill_article
